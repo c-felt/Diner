@@ -159,13 +159,14 @@ footer {
   section.socialMedia {
     display: flex;
     justify-content: center;
-    transition: transform 60s ease;
+    
     a {
         display: block;
         font-size: 2rem;
         margin: .5rem;
         padding: .5rem;
         color: white;
+        transition: transform 1s ease;
         &:hover {
             transform: translateY(5px);
         }

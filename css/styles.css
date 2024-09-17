@@ -460,7 +460,6 @@ footer section.contactInformation a {
 footer section.socialMedia {
   display: flex;
   justify-content: center;
-  transition: transform 60s ease;
 }
 footer section.socialMedia a {
   display: block;
@@ -468,6 +467,7 @@ footer section.socialMedia a {
   margin: 0.5rem;
   padding: 0.5rem;
   color: white;
+  transition: transform 1s ease;
 }
 footer section.socialMedia a:hover {
   transform: translateY(5px);
