@@ -399,7 +399,9 @@ main p {
   margin: 1rem0;
   margin-bottom: 16px;
 }
-.allcards section h2, .allcards section p, .allcards section img {
+.allcards section h2,
+.allcards section p,
+.allcards section img {
   margin: 0;
   padding: 1rem 16px;
 }

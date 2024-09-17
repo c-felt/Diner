@@ -94,14 +94,16 @@ main {
 
 .allcards {
   padding: 0 $gutter;
-  
+
   section {
     border: 3px solid $primaryColor;
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem0;
     margin-bottom: $gutter;
-    h2, p, img {
+    h2,
+    p,
+    img {
       margin: 0;
       padding: 1rem $gutter;
     }
@@ -150,26 +152,32 @@ footer {
   text-align: center;
   line-height: $leading;
   section.contactInformation {
-    p {font-size: 1rem; margin: 0.6rem}
-    ion-icon {color: white; padding-right: 8px;}
+    p {
+      font-size: 1rem;
+      margin: 0.6rem;
+    }
+    ion-icon {
+      color: white;
+      padding-right: 8px;
+    }
     a {
-        text-decoration: none;
+      text-decoration: none;
     }
   }
   section.socialMedia {
     display: flex;
     justify-content: center;
-    
+
     a {
-        display: block;
-        font-size: 2rem;
-        margin: .5rem;
-        padding: .5rem;
-        color: white;
-        transition: transform 1s ease;
-        &:hover {
-            transform: translateY(5px);
-        }
+      display: block;
+      font-size: 2rem;
+      margin: 0.5rem;
+      padding: 0.5rem;
+      color: white;
+      transition: transform 1s ease;
+      &:hover {
+        transform: translateY(5px);
+      }
     }
   }
   section.location {
