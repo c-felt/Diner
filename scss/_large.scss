@@ -1,0 +1,45 @@
+header,
+nav,
+main {
+  max-width: 960px;
+  margin: auto;
+}
+
+/* NAVIGATION STUFF GOES HERE  */
+#myButton {
+  display: none; //this gets rid of the hamburger menu so theres not one in large screen
+}
+ul.menuLinks li a {
+  padding: 0.4rem 1rem;
+}
+ul.menuLinks,
+ul.menuLinks.open {
+  display: flex;
+  justify-content: flex-end;
+}
+ul.menuLinks {
+  li a:hover {
+    background-color: #b1d4e0;
+    color: black;
+  }
+}
+
+// Main
+.allcards {
+  display: flex; //you dont need this or the below thing because they are stated int he small and medium
+  flex-wrap: wrap;
+  gap: $gutter;
+  justify-content: center; //this makes the cards that hang off on the end center on the page.
+  section {
+    flex-basis: calc(
+      33.333% - (($gutter * 2)) / 3
+    ); //now you need to do the math to give three cards enough space to function and appear (we are doing a bunch of math to acount for the $gutter
+    margin:0;
+}
+} //End allcards
+
+footer div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+}

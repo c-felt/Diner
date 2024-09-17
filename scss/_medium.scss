@@ -1,0 +1,27 @@
+/* NAVIGATION STUFF GOES HERE  */
+ul.menuLinks {
+  li a:hover {
+    background-color: #b1d4e0;
+    color: black;
+  }
+}
+
+// Main
+.allcards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gutter;
+  justify-content: center;
+  section {
+    flex-basis: calc(
+      50% - ($gutter/2)
+    ); //flex width is flex basis, and the math is sass thing that helps us calulate the flex basis perfectly for a really great layout
+    margin: 0;
+}
+} //End allcards
+
+footer div {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
