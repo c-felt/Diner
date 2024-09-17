@@ -37,6 +37,7 @@ header {
 /* --------------------------- NAVIGATION STUFF GOES HERE --------------------------- */
 nav {
   background-color: $primaryColor;
+  border-radius: 3px;
 }
 
 //  Default Trigram (hamburger menu)
@@ -58,7 +59,7 @@ nav {
 ul.menuLinks {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding: 5px;
   display: none;
   li a {
     color: #fff;
